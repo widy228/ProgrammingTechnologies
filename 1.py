@@ -1,0 +1,7 @@
+name = input()
+print(f'{name} - чемпион!')
+print(name + ' ' + len(name) * '-' + ' чемпион!')
+name = name.lower()
+print(len(name))
+print('п' in name)
+print(name.count('а'))
